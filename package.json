@@ -1,0 +1,17 @@
+{
+  "name": "discord-reaction-role-sync",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "One-shot Discord CLI for adding or removing a role from message reactors and poll voters.",
+  "scripts": {
+    "start": "node discord-role-sync.mjs",
+    "test": "node --test",
+    "check": "node --check discord-role-sync.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT"
+}
+
